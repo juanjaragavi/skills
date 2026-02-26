@@ -1,3 +1,3 @@
 # skills
 
-## Este es un proyecto de Skills.
+## Este es un proyecto de Skills
