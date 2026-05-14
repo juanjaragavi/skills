@@ -1,0 +1,7 @@
+{
+  "name": "topnetworks-sync-orchestrator",
+  "version": "1.0.0",
+  "entry": "SKILL.md",
+  "description": "TopNetworks cross-repository synchronization orchestrator skill",
+  "source": "https://github.com/topfinanzas/skills"
+}
