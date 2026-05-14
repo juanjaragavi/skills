@@ -33,17 +33,31 @@ if [[ -n "$LOCAL_REPO" ]]; then
   cp "$ARTIFACT_PATH" "$TMP_DIR/artifact.tar.gz"
   cp "$CHECKSUM_PATH" "$TMP_DIR/artifact.sha256"
 else
-  if command -v gh >/dev/null 2>&1; then
+  if command -v gh >/dev/null 2>&1 && gh auth status >/dev/null 2>&1; then
     gh release download "$VERSION_TAG" -R topfinanzas/skills \
       -p "topnetworks-sync-orchestrator-${VERSION_TAG}.tar.gz" \
       -p "topnetworks-sync-orchestrator-${VERSION_TAG}.sha256" \
       -D "$TMP_DIR"
+
+    if [[ ! -f "$TMP_DIR/topnetworks-sync-orchestrator-${VERSION_TAG}.tar.gz" ]] || [[ ! -f "$TMP_DIR/topnetworks-sync-orchestrator-${VERSION_TAG}.sha256" ]]; then
+      echo "ERROR: gh release download did not produce expected files" >&2
+      exit 1
+    fi
+
     mv "$TMP_DIR/topnetworks-sync-orchestrator-${VERSION_TAG}.tar.gz" "$TMP_DIR/artifact.tar.gz"
     mv "$TMP_DIR/topnetworks-sync-orchestrator-${VERSION_TAG}.sha256" "$TMP_DIR/artifact.sha256"
   else
     BASE_URL="https://github.com/topfinanzas/skills/releases/download/${VERSION_TAG}"
-    curl -fsSL "$BASE_URL/topnetworks-sync-orchestrator-${VERSION_TAG}.tar.gz" -o "$TMP_DIR/artifact.tar.gz"
-    curl -fsSL "$BASE_URL/topnetworks-sync-orchestrator-${VERSION_TAG}.sha256" -o "$TMP_DIR/artifact.sha256"
+    if ! curl -fsSL --max-redirs 3 "$BASE_URL/topnetworks-sync-orchestrator-${VERSION_TAG}.tar.gz" -o "$TMP_DIR/artifact.tar.gz"; then
+      echo "ERROR: Failed to download artifact tarball from GitHub Release" >&2
+      echo "If this repository is private, authenticate gh CLI and retry: gh auth login" >&2
+      exit 1
+    fi
+    if ! curl -fsSL --max-redirs 3 "$BASE_URL/topnetworks-sync-orchestrator-${VERSION_TAG}.sha256" -o "$TMP_DIR/artifact.sha256"; then
+      echo "ERROR: Failed to download artifact checksum from GitHub Release" >&2
+      echo "If this repository is private, authenticate gh CLI and retry: gh auth login" >&2
+      exit 1
+    fi
   fi
 fi
 
