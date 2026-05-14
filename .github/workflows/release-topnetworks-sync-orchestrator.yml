@@ -23,12 +23,16 @@ jobs:
         id: build
         run: |
           chmod +x scripts/build-skill-artifact.sh
-          BUILD_OUTPUT=$(scripts/build-skill-artifact.sh)
-          echo "$BUILD_OUTPUT"
-          echo "artifact_name=$(echo \"$BUILD_OUTPUT\" | awk -F= '/^ARTIFACT_NAME=/{print $2}')" >> "$GITHUB_OUTPUT"
-          echo "checksum_name=$(echo \"$BUILD_OUTPUT\" | awk -F= '/^CHECKSUM_NAME=/{print $2}')" >> "$GITHUB_OUTPUT"
-          echo "tag_version=$(echo \"$BUILD_OUTPUT\" | awk -F= '/^TAG_VERSION=/{print $2}')" >> "$GITHUB_OUTPUT"
-          echo "version=$(echo \"$BUILD_OUTPUT\" | awk -F= '/^VERSION=/{print $2}')" >> "$GITHUB_OUTPUT"
+          scripts/build-skill-artifact.sh > /tmp/build-output.env
+          cat /tmp/build-output.env
+          ARTIFACT_NAME=$(awk -F= '/^ARTIFACT_NAME=/{print $2}' /tmp/build-output.env)
+          CHECKSUM_NAME=$(awk -F= '/^CHECKSUM_NAME=/{print $2}' /tmp/build-output.env)
+          TAG_VERSION=$(awk -F= '/^TAG_VERSION=/{print $2}' /tmp/build-output.env)
+          VERSION=$(awk -F= '/^VERSION=/{print $2}' /tmp/build-output.env)
+          echo "artifact_name=${ARTIFACT_NAME}" >> "$GITHUB_OUTPUT"
+          echo "checksum_name=${CHECKSUM_NAME}" >> "$GITHUB_OUTPUT"
+          echo "tag_version=${TAG_VERSION}" >> "$GITHUB_OUTPUT"
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
 
       - name: Create release
         uses: softprops/action-gh-release@v2
