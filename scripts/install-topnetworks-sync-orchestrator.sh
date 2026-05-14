@@ -33,9 +33,18 @@ if [[ -n "$LOCAL_REPO" ]]; then
   cp "$ARTIFACT_PATH" "$TMP_DIR/artifact.tar.gz"
   cp "$CHECKSUM_PATH" "$TMP_DIR/artifact.sha256"
 else
-  BASE_URL="https://github.com/topfinanzas/skills/releases/download/${VERSION_TAG}"
-  curl -fsSL "$BASE_URL/topnetworks-sync-orchestrator-${VERSION_TAG}.tar.gz" -o "$TMP_DIR/artifact.tar.gz"
-  curl -fsSL "$BASE_URL/topnetworks-sync-orchestrator-${VERSION_TAG}.sha256" -o "$TMP_DIR/artifact.sha256"
+  if command -v gh >/dev/null 2>&1; then
+    gh release download "$VERSION_TAG" -R topfinanzas/skills \
+      -p "topnetworks-sync-orchestrator-${VERSION_TAG}.tar.gz" \
+      -p "topnetworks-sync-orchestrator-${VERSION_TAG}.sha256" \
+      -D "$TMP_DIR"
+    mv "$TMP_DIR/topnetworks-sync-orchestrator-${VERSION_TAG}.tar.gz" "$TMP_DIR/artifact.tar.gz"
+    mv "$TMP_DIR/topnetworks-sync-orchestrator-${VERSION_TAG}.sha256" "$TMP_DIR/artifact.sha256"
+  else
+    BASE_URL="https://github.com/topfinanzas/skills/releases/download/${VERSION_TAG}"
+    curl -fsSL "$BASE_URL/topnetworks-sync-orchestrator-${VERSION_TAG}.tar.gz" -o "$TMP_DIR/artifact.tar.gz"
+    curl -fsSL "$BASE_URL/topnetworks-sync-orchestrator-${VERSION_TAG}.sha256" -o "$TMP_DIR/artifact.sha256"
+  fi
 fi
 
 EXPECTED_SUM="$(tr -d '[:space:]' < "$TMP_DIR/artifact.sha256")"
