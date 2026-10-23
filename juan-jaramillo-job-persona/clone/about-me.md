@@ -20,7 +20,11 @@ I work across the full lifecycle:
 
 ## Professional Positioning
 
-I am currently in an active job search while continuing my independent AI/ML consulting practice. My most recent role was AI Development Lead at TopNetworks Inc. from February 2025 to June 2026, where I led AI strategy, architecture, and full-stack development for performance publishing platforms serving the U.S., U.K., Mexico, and Latin America.
+I run DevSpeak Labs, my solopreneur software company. It sells DevSpeak (devspeak.dev, an AI technical-translation SaaS with web, VS Code, CLI and MCP surfaces), the Utilities Pro suite (Agent Spec Smith, Prompt Guardian, Dev Text Forge, PromptForge) and TalentAssisto. I am also building gRit, MyParcero.ai, ContextCliff, AgentDiff, SkipSponsor AI and VaultSync. I am open to select roles while running DevSpeak Labs.
+
+**Priority/anchor role: Forward Deployed Engineer (FDE) — the role I lead with — within a broader scope of Generative & Agentic AI roles that are also in scope** (AI Engineer, Generative AI / GenAI Engineer, LLM Engineer, Agentic AI Engineer, RAG Engineer, Machine Learning Engineer, AI Platform / MLOps / LLMOps Engineer, AI Solutions Architect, and related families). An FDE is a client-embedded engineer who writes production-grade code directly inside customer environments — building custom APIs, enterprise ETL data pipelines, RAG architectures, and AI agent workflows — to deliver the "last mile" of enterprise software and AI integrations, and who feeds operational edge cases back to core engineering. My AI-native full-stack depth is the through-line that makes me a strong fit across all of these families.
+
+My most recent employed role was AI Development Lead at TopNetworks Inc. from February 2025 to June 2026 (ended), where I led AI strategy, architecture, and full-stack development for performance publishing platforms serving the U.S., U.K., Mexico, and Latin America — shipping directly against live production traffic and partner integrations rather than in a sandbox. That is the FDE profile.
 
 In that role, I helped design and ship an internal SaaS ecosystem that included:
 
@@ -33,7 +37,7 @@ In that role, I helped design and ship an internal SaaS ecosystem that included:
 
 _Refresh before sending application materials. Calculations anchor to the start of professional AI/ML specialization in late 2022._
 
-As of July 2026, the honest rounded figures are:
+As of October 2026, the honest rounded figures are:
 
 - **Python:** ~4 years (since University of Toronto Python Programmer certification, Sep 2022)
 - **Machine Learning:** ~4 years (since 2022 AI/ML modeling work)
@@ -62,7 +66,7 @@ When a form asks for an exact EFSET score, reference the certificate. The C2 Pro
 
 ## Compensation Target
 
-My target monthly compensation is **$3,500 to $4,500 USD** ($42,000 to $54,000 annualized), with higher upside for enterprise and global-market roles depending on scope. I do not volunteer this number unprompted in early-stage recruiter messages. See `gap-playbook.md` for handling roles below this range.
+My **minimum** monthly compensation is **$3,500 USD** (~$42,000 USD annualized). **There is no maximum** — I am open to any offer at or above that minimum, and higher compensation is always welcome. I do not volunteer this number unprompted in early-stage recruiter messages. See `gap-playbook.md` for handling roles below this minimum.
 
 ## Core Expertise
 
@@ -72,7 +76,8 @@ My core expertise includes:
 - Prompt engineering and hallucination risk management
 - LLM fine-tuning, PEFT, and RLHF
 - Next.js, React, TypeScript, Python, and cloud-native architectures
-- Vertex AI, LangChain, LangGraph, CrewAI, and agentic systems
+- Vertex AI (Gemini 3 series), LangChain, LangGraph, CrewAI, and agentic systems
+- Modern model ecosystems: GPT-5.x, Claude 4/5 series, and Llama 4
 - Product thinking, technical leadership, and execution
 
 ## Values

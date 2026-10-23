@@ -2,23 +2,25 @@
 
 ## Goal
 
-Use LinkedIn in a browser to find recruiters and HR professionals who are actively hiring for AI-related roles, send a connection request to each relevant person, and stop after 10 successful outreach attempts.
+Use LinkedIn in a browser to find recruiters and HR professionals who are actively hiring **Forward Deployed Engineers (FDEs)** (the priority role family) or other Generative & Agentic AI engineering roles, send a connection request to each relevant person, and stop after 10 successful outreach attempts.
 
 ## Target Search Criteria
 
-Look for Technical Recruiters or HR Managers at target IT companies or within the IT industry who are actively recruiting for AI-related roles.
+> Status (2026-10-10): Juan runs DevSpeak Labs and is open to select roles. Confirm with Juan that the search is active before running this outreach.
+
+Look for Technical Recruiters or HR Managers at target IT companies or within the IT industry who are actively recruiting Forward Deployed Engineers — client-embedded engineers who write production code inside customer environments and deliver the last mile of enterprise software and AI integrations.
 
 Prioritize profiles that show one or more of these signals:
 
 - The LinkedIn "Hiring" profile frame
-- Recent posts about AI job openings
-- Headline keywords such as "AI Recruiter"
+- Recent posts about Forward Deployed Engineer openings
+- Headline keywords such as "Technical Recruiter", "AI Recruiter", "GenAI Recruiter", "ML Recruiter", or "Talent Acquisition" at a company known to hire FDEs
 
 ## Outreach Message
 
 Send this connection request message to each relevant profile, replacing the placeholders with the correct details:
 
-"Hello [Name], I noticed you are actively seeking AI talent. I am an AI professional currently open to new opportunities and would love to share my resume with you for any relevant openings you may have. Best regards, [Your Name]."
+"Hello [Name], I noticed you are hiring Forward Deployed Engineers. I am a client-embedded AI/full-stack engineer with 17+ years shipping production integrations — custom APIs, data pipelines, RAG, and agent workflows — inside enterprise environments, and I would be glad to share my resume for any relevant openings. Best regards, Juan Jaramillo."
 
 ## Browser Workflow
 
@@ -33,7 +35,7 @@ Send this connection request message to each relevant profile, replacing the pla
 ## Operating Rules
 
 - Use a human-like pacing in the browser and avoid rapid repeated actions.
-- Do not message profiles that do not clearly indicate recruiting or hiring activity for AI-related roles.
+- Do not message profiles that do not clearly indicate recruiting or hiring activity for Forward Deployed Engineer roles or other Generative & Agentic AI engineering roles.
 - If a profile cannot be verified as relevant, skip it and move on.
 - If LinkedIn shows a login wall, CAPTCHA, or verification challenge, pause and report the blocker instead of trying to bypass it.
 

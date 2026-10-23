@@ -1,6 +1,6 @@
 ---
 name: jj-linkedin-jobs
-description: Provides Juan Miguel Jaramillo Gaviria's complete job-search profile — confirmed contact facts, target job titles, preferred locations and work modes, compensation range, work authorization, experience history, and skill set — for searching, screening, and applying to opportunities on LinkedIn Jobs. Use this skill any time a task involves searching LinkedIn Jobs, building a LinkedIn job search URL, filtering or scoring job postings for fit, answering LinkedIn Easy Apply screening questions (years of experience, salary expectations, work authorization, sponsorship, relocation, notice period), drafting a cover letter or InMail for a job application, or filling out a LinkedIn job application — even if the request is phrased generically like "find me AI engineer jobs on LinkedIn" or "apply to this posting" without naming him, since this is his personal LinkedIn job-search assistant.
+description: Provides Juan Miguel Jaramillo Gaviria's complete job-search profile — confirmed contact facts, his priority/anchor target role (Forward Deployed Engineer / FDE) within a broader scope of Generative & Agentic AI engineering roles (AI Engineer, GenAI/LLM Engineer, Agentic AI Engineer, MLOps/LLMOps, AI Solutions Architect, etc.), preferred locations and work modes, compensation range, work authorization, experience history, and skill set — for searching, screening, and applying to opportunities on LinkedIn Jobs. Use this skill any time a task involves searching LinkedIn Jobs, building a LinkedIn job search URL, filtering or scoring job postings for fit, answering LinkedIn Easy Apply screening questions (years of experience, salary expectations, work authorization, sponsorship, relocation, notice period), drafting a cover letter or InMail for a job application, or filling out a LinkedIn job application — even if the request is phrased generically like "find me engineering jobs on LinkedIn" or "apply to this posting" without naming him, since this is his personal LinkedIn job-search assistant.
 ---
 
 # Juan Jaramillo — LinkedIn Job Search & Application
@@ -10,6 +10,7 @@ single source of truth for his job-search preferences and facts — use it inste
 the user to repeat this information every time.
 
 ## Contact snapshot
+
 - Full name: Juan Miguel Jaramillo Gaviria
 - Email: juanamillo@proton.me
 - Phone: +57 305 420 6139
@@ -17,21 +18,105 @@ the user to repeat this information every time.
 - LinkedIn: https://www.linkedin.com/in/juan-jaramillo-ai/
 - GitHub: https://github.com/juanjaragavi
 
-## Target job titles / search keywords
-Use these (individually or OR'd together) as LinkedIn Jobs search keywords:
-- Artificial Intelligence Engineer / AI Engineer / AI Developer
-- Prompt Engineer
-- AI Strategy Consultant / Artificial Intelligence Consultant
-- Machine Learning Engineer
-- Generative AI Engineer / LLM Engineer
-- AI Solutions Architect / AI Solutions Lead
-- Vibe Coder / AI-Native IDE Engineer / AI-Native Full-Stack Engineer
+## Target roles — Generative & Agentic AI (FDE prioritized)
 
-CMS + React/Next.js roles (e.g. "Next.js Developer", "Headless CMS Engineer") are **only**
-a fit when AI-assisted development or headless modernization is central to the role — screen
-these out otherwise, they are not a general target.
+**Forward Deployed Engineer (FDE) is the anchor/priority role family — search it first.** Always
+type `Forward Deployed Engineer` into the LinkedIn Jobs search box first, before anything else.
+Once FDE results are exhausted, broaden to the wider set of in-demand Generative & Agentic AI
+roles below (all are in scope).
+
+### Priority family — Forward-deployed & agentic (search first)
+
+- Forward Deployed Engineer
+- Forward Deployed Engineer (FDE)
+- Forward Deployed AI Engineer
+- Agentic Forward Deployed Engineer
+- Forward Deployed Software Engineer
+- Forward Deployed Solutions Engineer
+- Agent Engineer
+- Agentic AI Engineer
+- Senior / Lead / Staff / Principal variants of any of the above
+
+### Core product & model roles
+
+- AI Engineer
+- Applied AI Engineer
+- Generative AI Engineer / GenAI Engineer
+- LLM Engineer
+- Prompt Engineer
+- RAG Engineer
+- Machine Learning Engineer
+
+### Platform & ops roles
+
+- AI Platform Engineer
+- AI Infrastructure Engineer
+- AI Systems Engineer
+- MLOps Engineer
+- LLMOps Engineer
+- AI Ops / AIOps Engineer
+- AI Reliability Engineer
+
+### Evaluation & safety roles
+
+- AI Evaluator / Evals Engineer
+- AI Red Teamer
+- AI Alignment Engineer
+- AI Safety Engineer
+- Model Behavior Engineer
+
+### Product & leadership roles
+
+- AI Product Manager
+- AI Solutions Architect
+- AI Strategist
+- Chief AI Officer
+- Head of AI
+
+### AI-augmented developer (emerging)
+
+- AI-Assisted / AI-Augmented Developer
+- AI-Native Developer
+
+Any of the above may be prefixed with Senior / Lead / Staff / Principal.
+
+LinkedIn search strings (run in priority order):
+
+```text
+# 1 — Priority: forward-deployed & agentic (search first)
+"Forward Deployed Engineer" OR "Forward Deployed AI Engineer" OR "Forward Deployed Software Engineer" OR "Forward Deployed Solutions Engineer" OR "Agentic AI Engineer" OR "Agent Engineer"
+```
+
+```text
+# 2 — Core GenAI product & model roles
+"AI Engineer" OR "Applied AI Engineer" OR "Generative AI Engineer" OR "GenAI Engineer" OR "LLM Engineer" OR "Prompt Engineer" OR "RAG Engineer" OR "Machine Learning Engineer"
+```
+
+```text
+# 3 — Platform, ops, evaluation & safety roles
+"AI Platform Engineer" OR "AI Infrastructure Engineer" OR "MLOps Engineer" OR "LLMOps Engineer" OR "AIOps Engineer" OR "AI Reliability Engineer" OR "AI Evals Engineer" OR "AI Safety Engineer"
+```
+
+```text
+# 4 — Product & leadership roles
+"AI Product Manager" OR "AI Solutions Architect" OR "AI Strategist" OR "Head of AI" OR "Chief AI Officer"
+```
+
+A posting also qualifies when the title differs but the description's core responsibility is
+building real AI/agentic systems — writing production code, custom APIs / enterprise ETL
+pipelines / RAG architectures / AI agent workflows — and, for the FDE priority family
+specifically, client-embedded engineering and last-mile deployment inside customer environments.
+
+**Out of scope — skip these:** generic front-end, back-end, or full-stack roles with no AI
+component; CMS/Next.js roles with no AI component; pure pre-sales Solutions Engineer roles with
+no build responsibility; pure Technical Account Manager roles; and pure data-analysis / BI /
+reporting roles with no ML or GenAI build work.
+
+For the full role definition, responsibilities, competency matrix, comparison against adjacent
+roles, and Juan's proof points for each, read `references/fde-role-definition.md`.
 
 ## Location & work mode
+
 - Location types: **On-site** and **Remote** (Hybrid is not selected/wanted)
 - On-site and remote locations (same set for both):
   - Bogotá, D.C., Capital District, Colombia
@@ -42,7 +127,11 @@ these out otherwise, they are not a general target.
   based in Colombia (contractor or remote-employee basis).
 
 ## Availability & employment type
-- Start date: Immediately — actively applying, available to start right away.
+
+- Current status (2026-10-10): Juan's TopNetworks role ended in June 2026. He now runs DevSpeak Labs
+  (DevSpeak, the Utilities Pro suite, TalentAssisto) and is open to select roles while running it.
+- Start date: confirm with Juan before answering. Jul–Aug 2026 answers said "Immediately", but
+  whether the search is still active hasn't been confirmed since he started running DevSpeak Labs.
 - Employment types wanted: Full-time, Contract, Temporary, Hourly.
   - Note: LinkedIn's native `f_JT` filter does not have a distinct "Hourly" value (only
     Full-time/Part-time/Contract/Temporary/Volunteer/Internship/Other). When filtering by UI,
@@ -50,11 +139,17 @@ these out otherwise, they are not a general target.
     application message/cover letter instead of relying on a filter.
 
 ## Compensation target
-USD $3,500–$4,500/month, or the annual equivalent (~USD $42,000–$54,000/year). Quote this
-range (or state "open to negotiation within this band") whenever a screening question asks
-for desired/expected salary.
+
+**Minimum: USD $3,500/month** (annual equivalent ~USD $42,000/year). **There is no
+maximum.** Quote this minimum (and state that there is no upper limit) whenever a
+screening question asks for desired/expected salary.
+
+A role may only be discarded for compensation reasons when the stated pay is
+explicitly **below** USD $3,500/month (or its annual/hourly equivalent). Never
+discard, deprioritize, or flag an opportunity because the compensation is high.
 
 ## Work authorization
+
 - Authorized to work in Colombia.
 - **Not** authorized to work in the U.S., U.K., or EU — do not claim otherwise, and do not
   pursue roles that require in-country sponsorship/relocation to those regions.
@@ -62,6 +157,7 @@ for desired/expected salary.
   location, as long as the engagement does not require local work authorization.
 
 ## Experience & skills summary
+
 - 17+ years in digital/technology roles (entrepreneurship, web/software development, digital
   marketing, and — since ~2022 — enterprise generative AI).
 - ~4 years each in Python, ML, GenAI, LLM/NLP, and prompt engineering.
@@ -81,13 +177,17 @@ job posting instead of guessing at background details.
 For ready-to-use answers to common Easy Apply screening questions, read
 `references/screening-answers.md` before filling out an application.
 
+For the Forward Deployed Engineer role definition and how Juan's background maps to it, read
+`references/fde-role-definition.md`.
+
 ## Building a LinkedIn Jobs search
+
 Run `scripts/build_search_url.py` to generate a search URL instead of manually reasoning
 through LinkedIn's filter query params (they use short non-obvious codes). Example:
 
 ```bash
 python3 scripts/build_search_url.py \
-  --titles "Prompt Engineer" "AI Engineer" "Machine Learning Engineer" \
+  --titles "Forward Deployed Engineer" "Forward Deployed AI Engineer" "Forward Deployed Software Engineer" \
   --locations "Bogota, D.C., Capital District, Colombia" "Remote" \
   --work-mode remote onsite \
   --employment-type F C T
@@ -100,9 +200,14 @@ tool available in the session (e.g. a `chrome-devtools`/Playwright MCP `new_page
 call) to actually view results.
 
 ## Screening job postings for fit
+
 Treat a posting as a strong match when it satisfies ALL of:
-1. Title/responsibilities align with the target roles above (or is an AI-centric CMS/Next.js
-   role).
+
+1. The title is a Forward Deployed Engineer variant (priority), OR any of the broader Generative
+   & Agentic AI role families in scope (core GenAI/model, platform/ops, evaluation/safety, or AI
+   product/leadership), OR the description's core responsibility is building real AI/agentic
+   systems (production code, custom APIs/ETL/RAG/agent integrations) — with client-embedded,
+   last-mile deployment being the strongest signal for the FDE priority family.
 2. Location is Remote (open to Colombia-based candidates) OR on-site/hybrid in one of the four
    listed cities.
 3. Compensation is at or above $3,500/month (or unspecified/negotiable).
@@ -110,14 +215,18 @@ Treat a posting as a strong match when it satisfies ALL of:
    arrangements are fine even for companies based there.
 
 Flag/skip postings that:
+
+- Have no AI/ML/GenAI build component — generic front-end, back-end, or full-stack roles;
+  CMS/Next.js roles with no AI component; pure pre-sales Solutions Engineer roles with no build
+  responsibility; pure Technical Account Manager roles; or pure data-analysis / BI / reporting
+  roles with no ML or GenAI modeling work.
 - Require on-site presence outside the four listed cities.
 - Explicitly require U.S./U.K./EU citizenship, green card, or visa sponsorship with no remote
   option.
-- Are pure WordPress/CMS/front-end roles with no AI angle (outside the conditional CMS+AI
-  exception above).
-- Pay meaningfully below the target compensation band with no stated flexibility.
+- Pay explicitly below the $3,500/month minimum with no stated flexibility. Never skip a role for paying above any figure — there is no upper limit.
 
 ## Applying (Easy Apply / forms)
+
 When actually filling out application forms, pair this skill with the
 `playwright-automation-fill-in-form` skill for the mechanics of driving the browser — use this
 skill's contact snapshot, preferences, and `references/screening-answers.md` as the source of

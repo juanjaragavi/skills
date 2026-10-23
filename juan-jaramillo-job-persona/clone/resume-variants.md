@@ -2,16 +2,18 @@
 
 ## Purpose
 
-This file maps each job-search track defined in `30_day_execution_strategy.md` to the specific resume PDF variant, primary keywords, and when to use it. Use this whenever an application asks which resume to submit or when tailoring materials for a specific role.
+This file maps each job-search track to the specific resume PDF variant, primary keywords, and when to use it. Use this whenever an application asks which resume to submit or when tailoring materials for a specific role.
+
+**Forward Deployed Engineer (FDE) is the priority/anchor role, within a broader scope of Generative & Agentic AI roles that are also in scope** (AI Engineer, GenAI/LLM Engineer, Agentic AI Engineer, RAG Engineer, MLOps/LLMOps, AI Solutions Architect, and related families). The tracks below are not separate role targets — they are keyword-emphasis framings selectable for ANY of the in-scope AI roles. Choose the one whose keyword set best matches the specific posting's emphasis; the FDE / client-embedded framing is the default when a posting fits the priority family.
 
 ## Track-to-Resume Mapping
 
-| Track                                                    | Resume PDF                              | Primary Keywords                                                                                                                                               | Use When                                                                                                                                               |
-| :------------------------------------------------------- | :-------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Track 1: AI/LLM Engineering**                          | `Juan_Jaramillo_Resume_AI_LLM.pdf`      | Vertex AI, Gemini, LangChain, LangGraph, CrewAI, PEFT, RLHF, fine-tuning, prompt engineering, RAG, agentic workflows                                           | Role focuses on model selection, custom RAG pipelines, fine-tuning, multi-agent orchestration, or ML engineering                                       |
-| **Track 2: Vibe Coding / AI-Native Product Engineering** | `Juan_Jaramillo_Resume_Vibe_Coding.pdf` | Next.js 15/16, React 19, Astro 5, Tailwind CSS v4, TypeScript, AI-assisted dev (Cursor, Claude Code, Copilot), rapid prototyping, prompt versioning (Git Flow) | Role focuses on high-velocity AI-assisted development, vibe coding, forward-deployed engineering, or AI-native product building                        |
-| **Track 3: CMS + React/Next.js Architecture**            | `Juan_Jaramillo_Resume_CMS_React.pdf`   | Headless WordPress, WPGraphQL, decoupled CMS, Next.js migrations, React 19, Astro 5, Core Web Vitals, SSR/SSG, legacy modernization                            | Role focuses on modernizing monolithic content platforms, headless CMS migrations, or full-stack React/Next.js architecture                            |
-| **General / Multi-track / Senior Leadership**            | `Juan_Jaramillo_Master_Resume.pdf`      | AI-Native Full-Stack Architect, AI Development Lead, TopNetworks ecosystem, 17+ years, full-stack + AI specialization                                          | Role spans multiple tracks, is a senior leadership role, or the JD is broad enough that a generalist positioning is stronger than a track-specific one |
+| Track                                                    | Resume PDF                              | Primary Keywords                                                                                                                                              | Use When                                                                                                                                               |
+| :------------------------------------------------------- | :-------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Track 1: AI/LLM Engineering**                          | `Juan_Jaramillo_Resume_AI_LLM.pdf`      | Vertex AI (Gemini 3), GPT-5.x, Claude 4/5, Llama 4, LangChain, LangGraph, CrewAI, PEFT, RLHF, fine-tuning, prompt engineering, RAG, agentic workflows         | Role focuses on model selection, custom RAG pipelines, fine-tuning, multi-agent orchestration, or ML engineering                                       |
+| **Track 2: Vibe Coding / AI-Native Product Engineering** | `Juan_Jaramillo_Resume_Vibe_Coding.pdf` | Next.js 16, React 19.2, Astro 6, Tailwind CSS v4, TypeScript, AI-assisted dev (Cursor, Claude Code, Copilot), rapid prototyping, prompt versioning (Git Flow) | Role focuses on high-velocity AI-assisted development, vibe coding, forward-deployed engineering, or AI-native product building                        |
+| **Track 3: CMS + React/Next.js Architecture**            | `Juan_Jaramillo_Resume_CMS_React.pdf`   | Headless WordPress, WPGraphQL, decoupled CMS, Next.js migrations, React 19.2, Astro 6, Core Web Vitals, SSR/SSG, legacy modernization                         | Role focuses on modernizing monolithic content platforms, headless CMS migrations, or full-stack React/Next.js architecture                            |
+| **General / Multi-track / Senior Leadership**            | `Juan_Jaramillo_Master_Resume.pdf`      | AI-Native Full-Stack Architect, AI Development Lead, TopNetworks ecosystem, 17+ years, full-stack + AI specialization                                         | Role spans multiple tracks, is a senior leadership role, or the JD is broad enough that a generalist positioning is stronger than a track-specific one |
 
 ## Cover Letter Variants
 
@@ -29,11 +31,12 @@ The master cover letter style reference is `Juan_Jaramillo_Master_Cover_Letter.p
 
 ## Selection Heuristics
 
-1. **Match the resume to the JD's primary language.** If the JD emphasizes LangGraph/CrewAI/fine-tuning, use the AI/LLM variant. If it emphasizes Next.js/Astro/vibe coding, use the Vibe Coding variant. If it emphasizes WordPress/headless/SSR, use the CMS/React variant.
-2. **When in doubt, use the Master Resume.** It positions Juan as AI-Native Full-Stack Architect and works for most senior AI/ML and full-stack leadership roles.
-3. **Never submit two resume variants to the same application.** Pick the strongest single fit.
-4. **Tailor the cover letter to the specific role and company.** The five existing cover letters are starting points, not final drafts. Always adjust the opening, role title, and key proof points to match the target.
-5. **Cross-check against `career-goals.md`** to ensure the selected track aligns with Juan's target role categories and compensation intent.
+1. **Lead with FDE, apply across the broadened GenAI/agentic families.** Pick the resume variant whose keyword set best matches the specific posting's technical emphasis — the tracks are keyword-emphasis framings, not alternative role targets.
+2. **Match the resume to the JD's primary language.** If the posting emphasizes LangGraph/CrewAI/RAG/fine-tuning (common in GenAI/LLM/Agentic AI Engineer and FDE-AI roles), use the AI/LLM variant. If it emphasizes Next.js/Astro/AI-assisted delivery velocity, use the Vibe Coding variant. If it emphasizes legacy modernization and headless/SSR migrations (only where an AI component is present), use the CMS/React variant.
+3. **When in doubt, use the Master Resume.** It carries the broadest client-embedded delivery narrative and works for most FDE and broader GenAI/agentic postings.
+4. **Never submit two resume variants to the same application.** Pick the strongest single fit.
+5. **Tailor the cover letter to the specific role and company.** The five existing cover letters are starting points, not final drafts. For FDE postings, reframe the opening around last-mile delivery, custom integrations, and client-embedded production work; for the broader GenAI/agentic roles, shift the emphasis to match (model/RAG/agent orchestration, platform/ops reliability, or AI architecture and leadership).
+6. **Cross-check against `career-goals.md`** to confirm the FDE-prioritized scope and compensation intent.
 
 ## File Inventory
 
@@ -45,7 +48,7 @@ All resume PDFs live in the root of the persona package:
 - `Juan_Jaramillo_Resume_CMS_React.pdf`
 - `Juan_Jaramillo_Master_Cover_Letter.pdf`
 
-The general-purpose resume source (for the LinkedIn Automation pipeline) is hosted at `https://files.catbox.moe/pswa9k.pdf` per `30_day_execution_strategy.md:164`.
+The general-purpose resume source (for the LinkedIn Automation pipeline) is hosted at `https://files.catbox.moe/3bha32.pdf` per `30_day_execution_strategy.md:164`.
 
 ## Maintenance Rule
 

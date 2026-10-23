@@ -1,10 +1,12 @@
 # Comprehensive Job-Search Strategy & 30-Day Action Plan
 
 **Candidate:** Juan Miguel Jaramillo Gaviria  
-**Positioning Headline:** AI-Native Full-Stack Architect / AI Development Lead  
+**Positioning Headline:** Forward Deployed Engineer (FDE) | Generative & Agentic AI Engineer | AI/LLM & Full-Stack Architect  
 **Target Locations:** Bogotá, Medellín (Colombia), Mexico City (Mexico), Greater Buenos Aires (Argentina), or Remote (Colombia-based)  
-**Target Monthly Compensation:** $3,500 – $4,500 USD (Annualized: $42,000 – $54,000 USD)  
+**Minimum Monthly Compensation:** $3,500 USD (Annualized: $42,000 USD) — **no maximum**  
 **Date of Execution Plan:** July 8, 2026
+
+> **Status note (2026-10-10):** Juan wrote this plan in July 2026 and updated its targeting in August 2026. His TopNetworks Inc. role ended in June 2026, and he now runs DevSpeak Labs as a solopreneur (DevSpeak, the Utilities Pro suite, TalentAssisto). Treat the plan as historical. Confirm with Juan whether a job search is still active before you act on it.
 
 ---
 
@@ -16,18 +18,26 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 
 ### **Core Positioning Anchors:**
 
-- **Enterprise AI Experience:** Deployed real-world, high-concurrency SaaS platforms at TopNetworks Inc., including _EmailGenius_ (Vertex AI, PostgreSQL), _TrafficGenius_ (BigQuery, Cloud Armor), _RouteGenius_ (Supabase, multi-agent n8n workflow), and _Social Media Genius_ (Next.js 15/16, React 19, Astro 5, Gemini 2.5 Flash on GCP).
+- **Enterprise AI Experience:** Deployed real-world, high-concurrency SaaS platforms at TopNetworks Inc., including _EmailGenius_ (Vertex AI, PostgreSQL), _TrafficGenius_ (BigQuery, Cloud Armor), _RouteGenius_ (Supabase, multi-agent n8n workflow), and _Social Media Genius_ (Next.js 16, React 19.2, Astro 6, Gemini 3 on GCP).
 - **Quantifiable Impact:** Proven track record of boosting client operational productivity by up to 46% while reducing infrastructure and operational overhead by up to 66%.
-- **Cutting-Edge Stack Mastery:** Deep fluency in Next.js 15/16, React 19, Astro 5, Tailwind CSS v4, TypeScript, Python, and SQL, paired with agentic frameworks like LangChain, LangGraph, and CrewAI.
+- **Cutting-Edge Stack Mastery:** Deep fluency in Next.js 16, React 19.2, Astro 6, Tailwind CSS v4, TypeScript, Python, and SQL, paired with agentic frameworks like LangChain, LangGraph, and CrewAI.
 
 ---
 
 ## 2. Track-Specific Action Plans
 
+> **Target roles: Forward Deployed Engineer (FDE) is the priority/anchor family — searched
+> first — within a broader scope of in-demand Generative & Agentic AI roles that are also in
+> scope** (core GenAI/model, platform/ops, evaluation/safety, and AI product/leadership
+> families; see the canonical role set in the persona `SKILL.md`). The three tracks below are
+> positioning lenses, not separate role targets: use them to decide which resume variant, case
+> study, and proof points best match a specific posting's technical emphasis. Lead with FDE
+> postings, then broaden to the wider GenAI/agentic families.
+
 ### Track 1: AI-Based Development (Enterprise & Deep ML Integration)
 
-- **Strategic Focus:** Targeting high-leverage roles focused on model selection, custom RAG pipelines, fine-tuning, and multi-agent orchestration.
-- **Target Compensation:** $200k – $253k USD Annually (Enterprise/Global market premium) or $3,500 – $4,500 USD monthly (LatAm local/regional target)
+- **Strategic Focus:** Positioning lens for FDE postings centered on model selection, custom RAG pipelines, fine-tuning, and multi-agent orchestration inside client environments.
+- **Compensation:** minimum $3,500 USD monthly (LatAm local/regional floor); $200k+ USD annually is realistic at the enterprise/global end. No maximum applies at any tier.
 - **Target Job Titles:**
   - AI Engineering Lead
   - LLM/GenAI Engineer
@@ -47,7 +57,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 - **Key Skills & Tech Keywords:**
   - LLM Fine-Tuning (PEFT, RLHF, LoRA)
   - Agentic Frameworks (LangChain, LangGraph, CrewAI, n8n)
-  - Vertex AI, Gemini 2.5 Flash, OpenAI APIs
+  - Vertex AI, Gemini 3, OpenAI APIs
   - Supabase, pgvector, PostgreSQL, BigQuery, Cloud Armor
 - **Specific Deliverables:**
   - Publish a detailed, metric-driven technical case study on RouteGenius on personal portfolio, demonstrating complex multi-agent orchestration and dynamic traffic routing via real-time webhooks.
@@ -55,7 +65,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 ### Track 2: Vibe Coding & AI-Native Product Engineering
 
 - **Strategic Focus:** High-velocity development roles where AI is used as a core system building-block and developer accelerator.
-- **Target Compensation:** $137k – $200k USD Annually (Global remote-first market)
+- **Target Compensation:** $137k+ USD Annually (Global remote-first market)
 - **Target Job Titles:**
   - AI-Native Product Engineer
   - Full-Stack AI Developer
@@ -70,7 +80,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
   - Very (Senior Software Engineer Python - Contractor)
 - **Key Skills & Tech Keywords:**
   - AI-Native Workflows (Cursor, Windsurf, Copilot, custom .cursorrules)
-  - Next.js 15/16, React 19, Astro 5, TypeScript, Tailwind CSS v4, Docker, PM2
+  - Next.js 16, React 19.2, Astro 6, TypeScript, Tailwind CSS v4, Docker, PM2
   - Spec-First AI Building, rapid prototyping, prompt versioning (Git Flow)
 - **Specific Deliverables:**
   - Record a high-impact, 3-minute video showcase (Loom) presenting the TopNetworks SaaS ecosystem as a production-grade, vibe-coded build with extreme reliability.
@@ -78,7 +88,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 ### Track 3: CMS + React/Next.js Architecture (Legacy Modernization)
 
 - **Strategic Focus:** Modernizing massive, slower monolithic content platforms into decoupled/headless Next.js or Astro configurations.
-- **Target Compensation:** $80k – $158k USD Annually (Freelance / Agency / Hybrid)
+- **Target Compensation:** $80k+ USD Annually (Freelance / Agency / Hybrid)
 - **Target Job Titles:**
   - Headless WordPress Architect
   - Full-Stack CMS Developer
@@ -94,7 +104,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
   - Mid-market B2B SaaS companies and digital agencies in LATAM/US
 - **Key Skills & Tech Keywords:**
   - Decoupled WordPress, headless CMS architectures, WPGraphQL, REST API
-  - React 19, Next.js 15/16, Astro 5, Tailwind CSS v4, Tailwind v4
+  - React 19.2, Next.js 16, Astro 6, Tailwind CSS v4, Tailwind v4
   - Core Web Vitals, Server-Side Rendering (SSR), Static Site Generation (SSG)
 - **Specific Deliverables:**
   - Position 15+ years of WordPress expertise as modern "legacy-to-modern headless migrations" to capture agency demand.
@@ -108,7 +118,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 - **Goal:** Rebrand LinkedIn identity around the **AI-Native Full-Stack Architect** headline and publish the main technical portfolio assets.
 - **Daily Action Plan:**
   - **Days 1-2:** Update LinkedIn profile (headline, summary, and experience section) using the target keywords and titles. Emphasize the TopNetworks SaaS ecosystem builds.
-  - **Days 3-4:** Publish a deep-dive, metric-driven technical case study on RouteGenius on [juanjaramillo.tech](https://juanjaramillo.tech) and GitHub. Detail the multi-agent n8n workflow and Supabase database.
+  - **Days 3-4:** Publish a deep-dive, metric-driven technical case study on RouteGenius on [juanjaramilloai.vercel.app](https://juanjaramilloai.vercel.app) and GitHub. Detail the multi-agent n8n workflow and Supabase database.
   - **Day 5:** Record and publish a 3-minute professional Loom video pitch detailing technical execution and entrepreneurial leadership. Pin it to LinkedIn and embed on the portfolio homepage.
 - **Milestone / KPI:** 100% completed rebranding on LinkedIn and active, live portfolio with the case study and video.
 
@@ -117,7 +127,7 @@ While most AI developers lack deep full-stack engineering discipline, and most C
 - **Goal:** Finalize three distinct resume variants matching the career tracks and prepare matching portfolio modules.
 - **Daily Action Plan:**
   - **Days 6-7:** Craft **Resume Variant A (AI/LLM Engineering)** focusing on Vertex AI, LangGraph, CrewAI, fine-tuning, and prompt engineering.
-  - **Days 8-9:** Craft **Resume Variant B (Vibe Coding / AI-Native Product)** focusing on rapid prototyping, Next.js 15/16, React 19, Astro 5, and the TopNetworks SaaS stack.
+  - **Days 8-9:** Craft **Resume Variant B (Vibe Coding / AI-Native Product)** focusing on rapid prototyping, Next.js 16, React 19.2, Astro 6, and the TopNetworks SaaS stack.
   - **Day 10:** Craft **Resume Variant C (CMS & React Decoupled Architecture)** focusing on headless WordPress, Next.js migrations, and full-stack performance optimization.
   - **Days 11-12:** Deploy specific routes or layout toggles on the personal portfolio optimized for each target resume.
 - **Milestone / KPI:** Three ATS-optimized, high-impact resume variants saved as PDFs and linked on specific portfolio segments.
@@ -161,9 +171,9 @@ To maintain maximum velocity and structured discipline, the following weekly tra
 
 To automate and streamline the pipeline during Week 3, the following pre-built automation framework is prepared:
 
-- **Primary Resume URL:** <https://files.catbox.moe/pswa9k.pdf>
+- **Primary Resume URL:** <https://files.catbox.moe/3bha32.pdf>
 - **LinkedIn Profile:** <https://www.linkedin.com/in/juan-jaramillo-ai/>
-- **Portfolio Site:** <https://juanjaramillo.tech>
-- **Job Title Filters:** "Artificial Intelligence Engineer", "AI Engineer", "AI Developer", "Generative AI Developer", "Prompt Engineer", "Machine Learning Engineer"
-- **Strict Exclusions:** Skip standard BI/Data Analyst roles, generic web developer postings with no AI focus, or data pipeline roles with no ML modeling integration.
+- **Portfolio Site:** <https://juanjaramilloai.vercel.app>
+- **Job Title Filters (priority first):** "Forward Deployed Engineer", "Forward Deployed AI Engineer", "Agentic AI Engineer", "Agent Engineer", then broaden to "AI Engineer", "Applied AI Engineer", "Generative AI Engineer", "LLM Engineer", "Prompt Engineer", "RAG Engineer", "Machine Learning Engineer", "AI Platform Engineer", "MLOps Engineer", "LLMOps Engineer", "AI Solutions Architect"
+- **Strict Exclusions:** Skip standard BI/Data Analyst/reporting roles with no ML or GenAI build work, generic web developer postings with no AI component, pure pre-sales/TAM roles with no build responsibility, or data pipeline roles with no ML/GenAI integration.
 - **Rate Limiting:** Wait 15–30 seconds between actions to bypass platform rate limiters.
